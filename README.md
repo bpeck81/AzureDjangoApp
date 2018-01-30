@@ -22,12 +22,13 @@ CREATE LOCAL REPOSITORY
 1. Run in Terminal
     1. git clone https://github.com/bpeck81/AzureDjangoApp.git
     2. cd AzureDjangoApp
-    3. git remote add azure <copied git url>
+    3. git remote add azure \<copied git url\>
     4. git push azure master
-    5. <enter Azure user password>
+    5. \<enter Azure user password\>
 2. Return to Azure Overview tab and press browse to view the deployed site!
 
 NOTE
+
 If you want to deploy an existing Django project to Azure add the following files from the repository to your project and follow the deployment steps above:
 	requirements.txt,
 	web.config,
